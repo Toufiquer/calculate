@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link href="/dist/output.css" rel="stylesheet" /> -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container h-screen flex items-center">
+      <div class="card w-96 bg-base-100 shadow-xl image-full mx-auto">
+        <figure>
+          <img src="arch.jpg" alt="School" />
+        </figure>
+        <div class="card-body">
+
+    <!-- Start Total Student -->
+    <div class="form-control w-full max-w-xs">
+  <label class="label">
+    <span class="label-text">Total Student</span>
+  </label>
+  <input onKeyup="keyUpFunction()"  id="totalStudent" value="200" type="number" class="input input-bordered input-accent w-full max-w-xs" />
+</div>
+    <!-- End Total Student -->
+
+
+    <!-- Start Present Student -->
+    <div class="form-control w-full max-w-xs">
+  <label class="label">
+    <span class="label-text">Present Student</span>
+  </label>
+  <input onKeyup="keyUpFunction()" id="presentStudent" value="60" type="number"  class="input input-bordered input-accent w-full max-w-xs" />
+</div>
+    <!-- End Present Student -->
+    <!-- Percentage of the  Student -->
+    <div class="form-control w-full max-w-xs">
+  <label class="label">
+    <span class="label-text">Percentage of the Student %</span>
+  </label>
+  <input readonly id="percentageOfStudent" value="30" type="number" class="input input-bordered input-accent w-full max-w-xs" />
+</div>
+    <!-- End Percentage Student -->
+
+<!-- <input onClick="runFunction()" class="form-control w-full max-w-xs btn btn-primary mt-6" type="submit" value="Calculate"> -->
+
+            
+            
+            
+
+    
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="app.js"></script>
+</body>
+</html>
